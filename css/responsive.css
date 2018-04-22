@@ -1,0 +1,113 @@
+/*all the following codes are responsible for responsiveness of the pages*/
+@media screen and (max-width: 600px){
+  .main{
+  	display: flex;
+  	flex-direction: column;
+  }
+  form{
+  	display: flex;
+
+  }
+  .container{
+  	display: flex;
+  	flex-direction: row;
+  	
+
+  	width: auto;
+  }
+  nav{width: 100%;
+  	height: auto;}
+  nav ul{
+ 
+  	
+  	position: relative;
+  	
+  }
+ nav ul li{
+  	display: flex;
+  	flex-direction:row;
+  	width: auto;
+margin-left: -40px;
+  }
+ 
+  .container1{
+  	display: flex;
+  	flex-direction: column;
+  	margin: 6%;
+  	padding:0.5%;
+  	
+
+  }
+   .container{
+  	display: flex;
+  	flex-direction: column;
+  	margin-left: 0%;
+
+  	width: auto;
+  }
+ 
+  .container1 img
+{
+	margin: 8%;
+	padding: 0.5%;
+	width: 150px;
+	height: 150px;
+	border: solid;
+	box-shadow: 10px 10px;
+	border-radius: 50%;
+	border-color: white;
+}
+  .container1 img
+{
+	width: 150px;
+	height: 150px;
+	border: solid;
+	-webkit-transition:width 2s,height 2s, -webkit-transform 2s;
+	transition: width 2s,height 2s, transform 2s;
+}
+.container1 img:hover
+{
+	width: 150px;
+	height: 150px;
+	-webkit-transform:rotate(360deg);
+	transform: rotate(360deg);
+}
+  .ree{
+  	display: flex;
+  	flex-direction: column;
+  }
+  .container2{
+  	display: flex;
+  	flex-direction: column;
+  }
+  .flow{
+  	display: flex;
+  	flex-direction: column;
+
+  }
+  .flow img{
+  	width: 200px;
+  }
+  .res{
+  	display: flex;
+  	flex-direction: column;
+  	width: 100%;
+  }
+  .ff{
+  	margin: 0%;
+  	width: 50%;
+  }
+
+  .ma{
+	
+	width: 96%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+}
+.ma img{
+	width: 150px;
+	height: 150px;
+	margin: 4%;
+}
+}

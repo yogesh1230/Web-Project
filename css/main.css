@@ -1,0 +1,211 @@
+/*Name: Yogesh Niroula
+UN id: 18406504
+*/
+
+body{
+	margin: 0;
+	background-color:#008060;
+	background: linear-gradient(to top, #000000, #001a13, #003326, #004d39, #00664d, #008060, #009973, #00b386, #00cc99, #00e6ac, #00ffbf, #1affc6, #33ffcc, #4dffd2, #66ffd9, #80ffdf, #99ffe6, #b3ffec, #ccfff2, #ccfff2, #b3ffec, #99ffe6, #80ffdf, #66ffd9, #4dffd2, #33ffcc, #1affc6, #00ffbf, #00e6ac, #00cc99, #00b386, #009973, #008060, #00664d, #004d39, #003326, #001a13, #000000);
+/*this part provides color of background and applies gradient to the background*/
+}
+
+.main img
+{
+	width: 75px;
+	height:75px;
+display: flex;
+border-radius: 15px 15px 15px 15px;
+border: solid;
+	-webkit-transition:width 2s,height 2s, -webkit-transform 2s;
+	transition: width 2s,height 2s, transform 2s;
+	/*this part makes the image rotate*/
+}
+
+
+
+.main h1
+{
+	text-align: center;text-shadow: 2px 2px 8px red;
+
+}
+/* to make the heading in centre and make shadow of the header  */
+
+
+section{
+	display: flex;
+	flex-direction: row;
+}
+/* make the section part in different rows */
+.container{
+	display: flex;
+	flex-direction: column;
+}
+/* make the container part in different rows */
+nav{
+	width: 100%;
+	height: 60px;
+	
+}
+/*maintaining the heights and widhts  */
+nav ul li{border: none;list-style: none;
+
+	margin: 0%;background-color:silver;display: inline-block;margin-left: 40px;padding:0.5%;}
+	/* keeping the border, background colors, displaying inline blocks, margins and padding */
+nav ul li a{text-decoration: none;}
+nav ul li:hover{background-color: white;}
+.container1{
+	display: flex;
+	background-color: grey;
+	margin:1%;
+	width: 96%;
+}
+/* maintaining the backgrounds, margins and padding */
+.container1 img
+{
+	margin: 6%;
+	padding: 0.5%;
+	width: 200px;
+	height: 200px;
+	border: solid;
+	box-shadow: 10px 10px;
+	border-radius: 50%;
+	border-color: white;
+}
+/* maintaining margins, padding, width, padding, box shadows and radius as well as color */
+.container1 img
+{
+	width: 200px;
+	height: 200px;
+	border: solid;
+	-webkit-transition:width 2s,height 2s, -webkit-transform 2s;
+	transition: width 2s,height 2s, transform 2s;
+}
+/* maintaining width and padding, and animations */
+.container1 img:hover
+{
+	width: 200px;
+	height: 200px;
+	-webkit-transform:rotate(360deg);
+	transform: rotate(360deg);
+}
+/* maintaining heights and width, making the image rotate */
+footer
+{
+	text-align: center;
+	background-color: silver;
+	text-decoration: none;
+	text-decoration-color: red;
+	
+}
+/* maintaining the texts */
+.container2{
+	background-color: grey;
+	width: 96%;
+	margin: 2%;
+	display: flex;
+
+}
+/* maintaing the colors, widths and margins and dispalying in different rows */
+.container2 img
+{
+	margin: 2%;
+	padding: 0.5%;
+	width: 200px;
+	height: 200px;
+
+}
+/* maintaining heights and widths, margins and padding */
+
+.ree{
+	margin: 0;
+	text-align: center;
+	background-color: silver;
+	text-decoration: none;
+	text-decoration-color: red;
+}
+/* maintaining texts and margins */
+a img{
+	width: 20px;
+}
+/* maintaining widths */
+.its{
+
+	margin: 2%;
+	padding: 2%;
+	width: 300px;
+	height: 300px;
+}
+/* maintaining padding and margins, heights and widths */
+.flow{
+	display: flex;
+	flex-direction: row;
+	background-color: grey;
+	margin:1%;
+	width: 92%;
+	padding: 1%;
+}
+/* maintaining in different rows and margins and padding , widths and background colors*/
+.flow p{
+	margin: 2%;
+	display: flex;
+	flex-direction: row;
+
+}
+/* maintaining in different rows and margins */
+.flow img{
+	margin: 8%;
+	padding: 0.5%;
+	width: 250px;
+	height: 250px;
+}
+/* maintaining padding and margins, heights and widths */
+.stat{
+	margin: 5%;
+	padding:2%;
+	width: 60%;
+}
+/* maintaining padding and margins and widths */
+.res{
+	display: flex;
+	background-color: grey;
+	width:100%;
+	height: 100%;
+}
+/* maintaining in different columns and background colors */
+.ma{
+margin: 2%;
+	display: flex;
+	flex-direction: row;
+}
+/* maintaining margins and displaying in row*/
+.ma img{
+	width: 250px;
+	height: 250px;
+	margin: 4%;
+}
+/* maintaining width and heights as well as the margin of the image*/
+.ja{
+	display: flex;
+	flex-direction: column;
+}
+/* displaying in column*/
+	
+
+.jj{
+	background-color: grey;
+	width: 96%;
+	margin: 1%;
+	display: flex;
+	flex-direction: row;
+}
+/* maintaining margins, widths, background colors and displaying in row*/
+.ff{
+	margin: 20px;
+}
+/* maintaining margin*/
+
+.fff input{
+padding:20px;
+word-wrap: normal;
+}
+/* maintaining word wrap as well as paddings*/
